@@ -71,27 +71,28 @@ const Header = () => {
           </button>
         </div>
         <div
-          className={`md:hidden flex justify-self-end py-20 p-10 mt-20 w-full h-full bg-cover bg-zinc-400 ${
-            navbar ? '' : 'hidden'
+          className={`md:hidden py-20 p-10 mt-20 w-full h-full bg-cover bg-zinc-400 ${
+            navbar ? "block" : "hidden"
           }`}>
-          <div className="bg-cover w-full h-full">
+          <div className="bg-cover w-full h-full z-50 flex flex-col justify-between items-center gap-8">
             <Link href={"/developer"}>
-              <span className="justify-end space-y-8 md:flex md:space-x-6 md:space-y-0 text-white font-semibold transition duration-500 cursor-pointer hover:text-black">
+              <span className="space-y-8 md:flex md:space-x-6 md:space-y-0 text-white font-semibold transition duration-500 cursor-pointer hover:text-black mb-10 pb-10">
                 Developer
               </span>
             </Link>
+            {categories.map((category) => (
+              <Link key={category.slug} href={`/category/${category.slug}`}>
+                <span className="space-y-8 md:flex md:space-x-6 md:space-y-0 text-white font-semibold transition duration-500 cursor-pointer hover:text-black mt-10 pt-10">
+                  {category.name}
+                </span>
+              </Link>
+            ))}
           </div>
-          {categories.map((category) => (
-            <Link key={category.slug} href={`/category/${category.slug}`}>
-              <span className="justify-end space-y-8 md:flex md:space-x-6 md:space-y-0 text-white font-semibold transition duration-500 cursor-pointer hover:text-black ">
-                {category.name}
-              </span>
-            </Link>
-          ))}
         </div>
       </div>
     </div>
   );
 };
 
-export default Header;1
+export default Header;
+1;
