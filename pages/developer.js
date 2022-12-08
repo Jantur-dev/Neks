@@ -48,14 +48,14 @@ const developer = () => {
                     <div class="p-6">
                         <h5 class="text-gray-900 text-xl font-medium mb-2">Ikhsandi S</h5>
                         <p class="text-gray-700 text-base mb-4">San</p>
-                        <Link href={"https://instagram.com/ikhsandi_1110"} target={"_blank"}>
+                        <Link href={"https://instagram.com/sandiikhsandi"} target={"_blank"}>
                             <button type="button" class="inline-block px-6 py-2.5 bg-black text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-white hover:text-black hover:shadow-lg focus:bg-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-700">Instagram</button>
                         </Link>
                     </div>
                 </div>
             </div>
             <div class="flex justify-center card mb-10 pb-10">
-                <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                <div class="rounded-lg shadow-lg bg-white ">
                     <Image
                         src={"/pepe.png"}
                         width={500} height={500}
@@ -99,7 +99,7 @@ const developer = () => {
                     <div class="p-6">
                         <h5 class="text-gray-900 text-xl font-medium mb-2">S. Al Fahruz z.</h5>
                         <p class="text-gray-700 text-base mb-4">Shobib</p>
-                        <Link href={"https://instagram.com/manusia_limited"} target={"_blank"}>
+                        <Link href={"https://instagram.com/im_potentate"} target={"_blank"}>
                             <button type="button" class="inline-block px-6 py-2.5 bg-black text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-white hover:text-black hover:shadow-lg focus:bg-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-700">Instagram</button>
                         </Link>
                     </div>
