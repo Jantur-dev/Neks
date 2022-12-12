@@ -55,7 +55,7 @@ const developer = () => {
                 </div>
             </div>
             <div class="flex justify-center card mb-10 pb-10">
-                <div class="rounded-lg shadow-lg bg-white ">
+                <div class="rounded-lg shadow-lg bg-white max-w-sm">
                     <Image
                         src={"/pepe.png"}
                         width={500} height={500}
